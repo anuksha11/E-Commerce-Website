@@ -19,3 +19,7 @@ for(allp of pro){
         window.location.href='sproduct.html';
     })
 }
+var final=document.querySelector('#finalcart');
+final.addEventListener('click',()=>{
+    window.location.href='cart.html';
+})
